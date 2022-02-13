@@ -1,6 +1,7 @@
 const elements = document.querySelectorAll('button')
 var display = document.getElementById('display')
 var displayValue = ''
+var d=''
 let calculation = (btnValue) => {
     d = display.value;
     if (d != '') {
